@@ -27,7 +27,7 @@ func main() {
 		})
 	})
 
-	r.GET("/hello", func(c *gin.Context) {
+	r.GET("/hello123", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
 			"message": "world msg",
 		})
